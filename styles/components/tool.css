@@ -1,0 +1,11 @@
+.tool {
+	cursor: default;
+}
+
+.tool.available {
+	cursor: pointer;
+}
+
+.tool.active {
+	font-weight: bold;
+}

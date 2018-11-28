@@ -1,0 +1,65 @@
+.cell {
+	display: inline-block;
+	width: var(--size-cell);
+	height: var(--size-cell);
+	border: none;
+	cursor: pointer;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: transparent;
+}
+
+.cell.grass {
+	background-image: url(../../images/cell/grass.png);
+}
+
+.cell.stone {
+	background-image: url(../../images/cell/stone.png);
+}
+
+.cell.broken {
+	background-image: url(../../images/cell/broken.png);
+}
+
+.cell.untilled {
+	background-image: url(../../images/cell/untilled.png);
+}
+
+.cell.tilled {
+	background-image: url(../../images/cell/tilled.png);
+}
+
+.cell.planted {
+	background-image: url(../../images/cell/planted.png);
+}
+
+.cell.watered {
+	background-image: url(../../images/cell/watered.png);
+}
+
+.cell.growing {
+	background-image: url(../../images/cell/growing.png);
+}
+
+.cell.grown {
+	background-image: url(../../images/cell/grown.png);
+}
+
+.cell.failed {
+	background-image: url(../../images/cell/failed.png);
+}
+
+.cell.harvested {
+	background-image: url(../../images/cell/harvested.png);
+}
+
+.cell.disabled {
+	cursor: default;
+	opacity: 0.9;
+}
+
+.cell:hover,
+.cell:focus {
+	box-shadow: inset 0px 0px 0px 2px var(--color-highlight);
+}

@@ -1,0 +1,6 @@
+Add comments
+Move logic from cells to tools
+Add cooldown to tools
+Make grass slowly regrow if not used
+
+Debounce render - https://codeburst.io/throttling-and-debouncing-in-javascript-b01cad5c8edf

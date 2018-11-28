@@ -1,0 +1,10 @@
+@import './common/reset.css';
+@import './common/variables.css';
+
+@import './components/cell.css';
+@import './components/field.css';
+@import './components/tool.css';
+
+body {
+	background: var(--color-charcoal);
+}
